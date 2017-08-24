@@ -1,0 +1,10 @@
+# Default routing for incoming users
+# ----
+GET     /                       controllers.Application.index
+
+# Static asset routing
+# ----
+GET     /assets/*file           controllers.Assets.versioned(path="/public", file: Asset)
+
+# SPA API routes
+# ----

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators":true,
+    "sourceMap": true,
+    "mapRoot": "/assets/typescript",
+    "sourceRoot": "/assets/typescript",
+    "rootDirs": ["app/assets/typescript","test/assets/"],
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*",
+        "target/web/node-modules/main/webjars/*",
+        "target/web/node-modules/test/webjars/*"
+      ]
+    },
+    "strict":true,
+    "strictNullChecks":false,
+    "outDir": "./target/ts",
+    "lib": ["es6", "dom"],
+    "typeRoots": ["target/web/node-modules/main/webjars/@types","target/web/node-modules/test/webjars/@types"]
+  }
+}
