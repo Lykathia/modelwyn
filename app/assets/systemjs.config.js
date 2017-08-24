@@ -29,4 +29,6 @@
         }
       }
     });
-});
+
+    System.import('assets/app/main.js').catch(function(error) { console.error(error); });
+})(this);

@@ -3,16 +3,20 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { ModelwynRoutes } from './modelwyn.routes';
+
 import { ModelwynComponent } from './modelwyn.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule,
+    ModelwynRoutes,
     HttpModule
   ],
   declarations: [
+    HomeComponent
   ],
   providers: [],
   bootstrap: [ModelwynComponent]

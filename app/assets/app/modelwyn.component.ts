@@ -2,6 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'main',
-  template: `foo bar baz`
+  templateUrl: './modelwyn.tpl.html'
 })
-export class ModelwynComponent
+export class ModelwynComponent {}
