@@ -16,4 +16,4 @@ addSbtPlugin("com.typesafe.sbt"     % "sbt-digest"              % "1.1.0")
 addSbtPlugin("com.typesafe.sbt"     % "sbt-gzip"                % "1.0.0")
 addSbtPlugin("com.typesafe.sbt"     % "sbt-stylus"              % "1.1.0") // PitchPlay maintained version of sbt-stylus, with plugin support
 addSbtPlugin("name.de-vries"        % "sbt-typescript"          % "2.4.1-2")
-addSbtPlugin("name.de-vries"        % "sbt-tslint"              % "5.1.0")
+//addSbtPlugin("name.de-vries"        % "sbt-tslint"              % "5.1.0")

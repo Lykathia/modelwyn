@@ -9,6 +9,7 @@ updateOptions := updateOptions.value.withCachedResolution(true)
 libraryDependencies ++= {
   val ngVersion = "4.2.5"
   Seq(
+    guice,
     "org.webjars.npm" % "angular__common"                   % ngVersion,
     "org.webjars.npm" % "angular__compiler"                 % ngVersion,
     "org.webjars.npm" % "angular__core"                     % ngVersion,
@@ -35,10 +36,6 @@ dependencyOverrides += "org.webjars.npm" % "minimatch" % "3.0.0"
 // target/web/node_modules resolution
 resolveFromWebjarsNodeModulesDir := true
 
-(rulesDirectories in tslint) := Some(List(
-  tslintEslintRulesDir.value
-))
-
 pipelineStages := Seq(digest, gzip)
 
 StylusKeys.compress in Assets := true
@@ -48,4 +45,3 @@ StylusKeys.compress in Assets := true
 jasmineFilter in jasmine := GlobFilter("*.spec.js")
 
 logLevel in jasmine := Level.Info
-logLevel in tslint := Level.Info
