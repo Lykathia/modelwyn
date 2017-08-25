@@ -16,7 +16,8 @@ import { HomeComponent } from './home/home.component';
     HttpModule
   ],
   declarations: [
-    HomeComponent
+    HomeComponent,
+    ModelwynComponent
   ],
   providers: [],
   bootstrap: [ModelwynComponent]

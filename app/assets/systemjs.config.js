@@ -1,7 +1,7 @@
 (function (global) {
   System.config({
     paths: {
-      'npm': 'assets/lib/'
+      'npm:': 'assets/lib/'
     },
     map: {
       'app': 'assets/app',
