@@ -86,6 +86,8 @@ libraryDependencies ++= {
     "org.webjars.npm" % "core-js"                           % "2.4.1",
     "org.webjars.npm" % "symbol-observable"                 % "1.0.1",
 
+    "org.webjars.npm" % "normalize.css"                     % "7.0.0",
+
     "org.webjars.npm" % "typescript"                        % "2.4.1",
     "org.webjars.npm" % "tslint-eslint-rules"               % "3.4.0",
     "org.webjars.npm" % "types__jasmine"                    % "2.5.53" % "test",
